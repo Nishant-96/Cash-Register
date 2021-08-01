@@ -1,0 +1,82 @@
+*{
+
+}
+
+.container{
+    margin: auto;
+    padding: 1rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    font-size: 25px;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction:column;
+    width: 60vw;
+}
+
+.heading{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+h1, p {
+    color: white;
+}
+
+label{
+    color: white;
+    background-color: black;
+    padding: 0.5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    border-radius: 0.3rem;
+}
+
+input{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    height: 15px;
+    border-radius: 0.3rem;
+    display: block;
+    
+}
+
+
+button {
+    margin-top: 1rem; 
+    padding: 0.5rem;
+    background-color: sandybrown;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 0.3rem;
+}
+
+caption{
+    color: white;
+    background-color: black;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    padding:0.5rem;
+    border-radius: 0.3rem;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+th,td{
+    word-wrap: break-word;
+}
+
+#change-table, th, td{
+    padding: 0.2rem;
+    color: black;
+    background-color: lightgreen ;
+    border: 2px solid blue ;
+    border-collapse: collapse;
+}
