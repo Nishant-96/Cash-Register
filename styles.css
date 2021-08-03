@@ -1,7 +1,9 @@
 *{
 
 }
-
+body{
+    background-color:black;
+}
 .container{
     margin: auto;
     padding: 1rem;
