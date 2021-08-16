@@ -8,10 +8,12 @@ var availableNotes = ["2000","500","100","20","10","5","1"];
 
 checkButton.addEventListener("click", function validateBillAndCashAmount(){
     errorMessage.style.display = "none";    //hides the error the message
+
+    
     if(billAmount.value > 0){
-            if(cashGiven.value >= billAmount.value){
-                var amountToBeReturned = cashGiven.value - billAmount.value;
-                
+            if(Number(cashGiven.value) >= Number(billAmount.value)){
+                var amountToBeReturned = Number(cashGiven.value) - Number(billAmount.value);
+                console.log(amountToBeReturned)
                 calculateChange(amountToBeReturned);
             }else{
                 errorMessage.style.display = "block";
